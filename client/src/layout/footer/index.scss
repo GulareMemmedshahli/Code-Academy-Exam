@@ -1,0 +1,31 @@
+.footer{
+ 
+img{
+    width: 100%;
+    height: 10vh;
+}
+.footertext{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+    bottom: 100px;
+    color: white;
+    @media only screen and (max-width: 768px){
+    flex-direction: column;
+        
+    }
+    i,a{
+        color: red;
+        text-decoration: none;
+    }
+    .iconfooter{
+        display:flex;
+    column-gap: 30px;
+       i{
+        color: white;
+        column-gap: 30px;
+       }
+    }
+}
+}

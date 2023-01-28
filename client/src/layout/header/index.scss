@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+   
+    a{
+        text-decoration: none;
+        color:#0D2D3E;
+        margin: 20px;
+    }
+    .headericon{
+        display: none;
+        @media only screen and (max-width: 768px){
+           display: block;
+             
+             }
+    }
+
+    .nav{
+        display:block;
+        @media only screen and (max-width: 768px){
+            display: none;
+              
+              }
+    }
+    
+}

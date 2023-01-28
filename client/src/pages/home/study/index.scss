@@ -1,0 +1,30 @@
+
+.container{
+    h1{
+        color: #092C3F;
+    }
+    h3{
+        color: #EB566C;
+    }
+    .studycard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    @media only screen and (max-width: 768px){
+        flex-direction: column;
+    }
+    .whitetitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 100px;
+        background-color: white;
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+}

@@ -1,0 +1,25 @@
+.container{
+    .mambers{
+        display: flex;
+        column-gap: 30px;
+        justify-content: center;
+        align-items: center;
+        @media only screen and (max-width: 768px){
+            flex-direction: column;
+        }
+        .whitemambers{
+            background-color: white;
+            width: 200px;
+            text-align: center;
+            h5{
+                color: #092C3F;
+            }
+            p{
+                color: #EB566C;
+            }
+            @media only screen and (max-width: 768px){
+                text-align: center;
+            }
+        }
+    }
+}

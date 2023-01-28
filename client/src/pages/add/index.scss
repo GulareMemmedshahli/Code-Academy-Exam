@@ -1,0 +1,32 @@
+
+.form{
+    height: 90vh;
+   h3{
+    color: #446170;
+font-size: 20px;
+   }
+   form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+    input{
+       width: 300px; 
+       height: 30px;
+       box-shadow: 10px 5px 5px#22536d;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+        background-color: #22536d;
+        border: none;
+        margin-top: 20px;
+        color: white;
+    }
+    button:hover{
+        background-color: #446170;
+    }
+}
+
+}

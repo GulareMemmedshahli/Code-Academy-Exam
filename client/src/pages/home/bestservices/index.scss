@@ -1,0 +1,44 @@
+
+.container{
+    margin-top: 100px;
+
+   
+    .bestServices{
+        img{
+            width: 100%;
+            display: block;
+            @media only screen and (max-width: 768px){
+                flex-direction: column;
+                color: black;
+                display: none;
+                
+            }
+        }
+       
+    }
+    .servicesimageandtext{
+        display:flex ;
+        column-gap: 30px;
+        position: relative;
+        bottom: 450px;
+        left: 200px;
+        color: white;
+        img{
+            width: 350px;
+    
+        }
+        button{
+            width: 150px;
+            height: 30px;
+            background-color: #FF2143;
+            border: none;
+            color: white;
+        }
+        @media only screen and (max-width: 768px){
+            flex-direction: column;
+            color: black;
+            
+        }
+        
+    }
+}

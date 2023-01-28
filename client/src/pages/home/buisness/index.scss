@@ -1,0 +1,35 @@
+.carousel{
+    img{
+        width: 100%;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 600px;
+        right: 300px;
+        font-weight:900;
+        font-size:70px;
+        @media only screen and (max-width: 768px){
+           font-size: 20px;
+           right: 100px;
+            
+            }
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 600px;
+        right: 450px;
+        font-size:20px;
+        @media only screen and (max-width: 768px){
+            font-size: 20px;
+            right: 100px;
+             
+             }
+    }
+
+}
